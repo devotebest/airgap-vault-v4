@@ -4,7 +4,8 @@ import { InteractionSetting } from '../../providers/interaction/interaction'
 
 @Component({
   selector: 'secret-item',
-  templateUrl: 'secret-item.html'
+  templateUrl: 'secret-item.html',
+  styleUrls: ['./secret-item.scss']
 })
 export class SecretItemComponent {
   @Input()

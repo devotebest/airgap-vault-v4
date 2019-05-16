@@ -2,7 +2,8 @@ import { Component, Input } from '@angular/core'
 
 @Component({
   selector: 'hexagon-icon',
-  templateUrl: 'hexagon-icon.html'
+  templateUrl: 'hexagon-icon.html',
+  styleUrls: ['./hexagon-icon.scss']
 })
 export class HexagonIconComponent {
   @Input()

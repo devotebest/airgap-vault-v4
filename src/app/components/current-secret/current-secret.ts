@@ -4,7 +4,8 @@ import { Secret } from '../../models/secret'
 
 @Component({
   selector: 'current-secret',
-  templateUrl: 'current-secret.html'
+  templateUrl: 'current-secret.html',
+  styleUrls: ['./current-secret.scss']
 })
 export class CurrentSecretComponent {
   private secrets: Secret[] = []

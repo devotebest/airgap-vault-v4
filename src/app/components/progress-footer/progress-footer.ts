@@ -4,7 +4,8 @@ import { handleErrorLocal, ErrorCategory } from '../../providers/error-handler/e
 
 @Component({
   selector: 'progress-footer',
-  templateUrl: 'progress-footer.html'
+  templateUrl: 'progress-footer.html',
+  styleUrls: ['./progress-footer.scss']
 })
 export class ProgressFooterComponent {
   @Input()

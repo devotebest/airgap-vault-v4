@@ -8,7 +8,8 @@ const entropyCalculatorWorker = new Worker(blobURL)
 
 @Component({
   selector: 'touch-entropy',
-  templateUrl: 'touch-entropy.html'
+  templateUrl: 'touch-entropy.html',
+  styleUrls: ['./touch-entropy.scss']
 })
 export class TouchEntropyComponent implements OnInit, IEntropyGenerator {
   @Input()

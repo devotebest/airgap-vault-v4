@@ -10,7 +10,8 @@ import {
 
 @Component({
   selector: 'signed-transaction',
-  templateUrl: 'signed-transaction.html'
+  templateUrl: 'signed-transaction.html',
+  styleUrls: ['./signed-transaction.scss']
 })
 export class SignedTransactionComponent {
   @Input()

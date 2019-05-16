@@ -3,7 +3,8 @@ import { Transaction } from '../../models/transaction.model'
 
 @Component({
   selector: 'from-to',
-  templateUrl: 'from-to.html'
+  templateUrl: 'from-to.html',
+  styleUrls: ['./from-to.scss']
 })
 export class FromToComponent {
   @Input()
